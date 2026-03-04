@@ -12,8 +12,10 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/
 sudo apt install curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
+3. install
 ```bash
 sudo apt update
+
 ```
 4. Environment setup
 ```bash
@@ -36,3 +38,7 @@ source devel/setup.bash
 ```bash
 echo $ROS_PACKAGE_PATH
 ```
+# turtle1/pose
+bottom left (x = 0, y = 0)
+x : The x-value increases when moving to the right.
+y : The y-value increases when moving upward
