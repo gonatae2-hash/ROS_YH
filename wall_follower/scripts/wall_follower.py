@@ -45,11 +45,11 @@ class WallFollower:
         twist = Twist()
 
         if self.state == 'find_wall':
-            # 벽을 찾을 때까지 전진 + 약간 우회전
+            # 벽을 찾을 때까지 전진 + 약간 좌회전
             twist.linear.x = LINEAR_SPEED
             twist.angular.z = ANGULAR_SPEED * 0.5
         elif self.state == 'turn_right':
-            # 전방에 벽 → 좌회전
+            # 전방에 벽 → 우회전
             twist.angular.z = -ANGULAR_SPEED
         elif self.state == 'follow_wall':
             # 오른쪽에 벽 → 직진
