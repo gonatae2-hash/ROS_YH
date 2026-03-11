@@ -170,7 +170,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="base_link">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
   <joint name="shoulder_pan_joint" type="revolute">
@@ -208,7 +208,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="shoulder_pan_link">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
   <joint name="shoulder_pitch_joint" type="revolute">
@@ -244,7 +244,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="shoulder_pitch_link">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
   <joint name="elbow_roll_joint" type="revolute">
@@ -280,7 +280,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="elbow_roll_link">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Yellow</material>
   </gazebo>
 
   <joint name="elbow_pitch_joint" type="revolute">
@@ -317,7 +317,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="elbow_pitch_link">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
   <joint name="wrist_roll_joint" type="revolute">
@@ -352,7 +352,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="wrist_roll_link">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Yellow</material>
   </gazebo>
 
   <joint name="wrist_pitch_joint" type="revolute">
@@ -390,7 +390,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="wrist_pitch_link">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
   <joint name="gripper_roll_joint" type="revolute">
@@ -431,7 +431,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="gripper_roll_link">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
 
@@ -474,7 +474,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="l_gripper_aft_link">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
 <!-- Joint between Wrist roll and finger 2 -->
@@ -508,7 +508,7 @@ This link is the base of the arm in which arm is placed
   </link>
 
   <gazebo reference="r_gripper_aft_link">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
 
