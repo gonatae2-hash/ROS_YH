@@ -79,7 +79,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='diff_wheeled_robot'>
+    <!-- <model name='diff_wheeled_robot'>
       <link name='base_footprint'>
         <pose>0 0 0 0 -0 0</pose>
         <inertial>
@@ -466,7 +466,7 @@
         <robotNamespace>/</robotNamespace>
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
-    </model>
+    </model> -->
     <model name='unit_cylinder_1'>
       <pose>0 1.56701 0.5 0 -0 0</pose>
       <link name='link'>
@@ -521,7 +521,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_2'>
       <pose>2 1.55881 0.5 0 -0 0</pose>
@@ -577,7 +577,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_3'>
       <pose>0 -1.56452 0.5 0 -0 0</pose>
@@ -633,7 +633,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_4'>
       <pose>2.56824 -1.58381 0.5 0 -0 0</pose>
@@ -689,7 +689,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_5'>
       <pose>-2 0 0.5 0 -0 0</pose>
@@ -745,7 +745,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_6'>
       <pose>1.5341 0 0.5 0 -0 0</pose>
@@ -801,7 +801,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_7'>
       <pose>5 0 0.5 0 -0 0</pose>
@@ -857,7 +857,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_8'>
       <pose>-2 2 0.5 0 -0 0</pose>
@@ -913,7 +913,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <model name='unit_cylinder_9'>
       <pose>-2 -2 0.5 0 -0 0</pose>
@@ -969,13 +969,13 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <static>0</static>
+      <static>1</static>
     </model>
     <state world_name='default'>
       <sim_time>101 420000000</sim_time>
       <real_time>105 234574968</real_time>
       <wall_time>1434886836 930505686</wall_time>
-      <model name='diff_wheeled_robot'>
+      <!-- <model name='diff_wheeled_robot'>
         <pose>4.1e-05 -0 1.5e-05 2.11851e-22 -0.02965 -5.5e-05</pose>
         <link name='base_footprint'>
           <pose>4.1e-05 -0 1.5e-05 2.11851e-22 -0.02965 -5.5e-05</pose>
@@ -995,7 +995,7 @@
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-      </model>
+      </model> -->
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <link name='link'>
